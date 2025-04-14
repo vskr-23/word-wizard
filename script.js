@@ -192,7 +192,7 @@ document.querySelectorAll('.menu-item').forEach(item => {
 
 // Image paths configuration
 const imagePaths = {
-    logo: 'new_logo.png',
+    logo: 'wordwizardlogo.png',
     background: 'bookimg.jpg',
     carousel: [
         'learn.png',
