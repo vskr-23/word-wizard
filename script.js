@@ -192,12 +192,12 @@ document.querySelectorAll('.menu-item').forEach(item => {
 
 // Image paths configuration
 const imagePaths = {
-    logo: '/new_logo.png',
-    background: '/bookimg.jpg',
+    logo: 'new_logo.png',
+    background: 'bookimg.jpg',
     carousel: [
-        '/learn.png',
-        '/studying.png',
-        '/i_am_learning.png'
+        'learn.png',
+        'studying.png',
+        'i_am_learning.png'
     ]
 };
 
