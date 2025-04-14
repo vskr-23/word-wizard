@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Wizard - Master Your Vocabulary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/new_logo.png" alt="Word Wizard Logo">
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="auth-buttons">
+                    <button onclick="showLoginModal()" class="btn-login">Sign In</button>
+                    <button onclick="showSignupModal()" class="btn-signup">Sign Up</button>
+                </div>
+                <div id="hamburgerMenu" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Side Menu -->
+        <div class="side-menu" id="sideMenu">
+            <div class="side-menu-header">
+                <h3>Menu</h3>
+                <button class="close-menu" id="closeMenu">&times;</button>
+            </div>
+            
+            <div class="side-menu-content">
+                <div class="menu-section">
+                    <h4>Navigation</h4>
+                    <a href="#" class="menu-item"><i class="fas fa-home"></i> Dashboard</a>
+                    <a href="#" class="menu-item"><i class="fas fa-tasks"></i> Assignments</a>
+                    <a href="#" class="menu-item"><i class="fas fa-trophy"></i> Challenges</a>
+                    <a href="#" class="menu-item"><i class="fas fa-crown"></i> Leaderboard</a>
+                    <a href="#" class="menu-item"><i class="fas fa-book"></i> My Words</a>
+                    <a href="#" class="menu-item"><i class="fas fa-users"></i> Friends</a>
+                </div>
+            
+                <div class="menu-section">
+                    <h4>Theme</h4>
+                    <div class="theme-options">
+                        <button class="theme-btn" data-theme="light"><i class="fas fa-sun"></i> Light</button>
+                        <button class="theme-btn" data-theme="dark"><i class="fas fa-moon"></i> Dark</button>
+                        <button class="theme-btn" data-theme="deep-blue"><i class="fas fa-water"></i> Deep Blue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Image Carousel -->
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <div class="carousel-slide">
+                <img src="https://source.unsplash.com/800x400/?vocabulary" alt="Vocabulary">
+                <div class="slide-content">
+                    <h2>Master Your Vocabulary</h2>
+                    <p>Learn a new word every day with our interactive platform</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://source.unsplash.com/800x400/?education" alt="Education">
+                <div class="slide-content">
+                    <h2>Track Your Progress</h2>
+                    <p>Complete challenges and watch your vocabulary grow</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://source.unsplash.com/800x400/?learning" alt="Learning">
+                <div class="slide-content">
+                    <h2>Join Our Community</h2>
+                    <p>Connect with fellow learners and share your journey</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div class="dashboard">
+                <div class="dashboard-main">
+                    <!-- Welcome Container -->
+                    <div class="welcome-container">
+                        <h1>Welcome to Word Wizard! 🌟</h1>
+                        <p class="intro-text">Expand your vocabulary one word at a time. Each day brings a new letter and exciting words to learn!</p>
+                        <div class="daily-info">
+                            <p>Today's Letter: <span class="letter-highlight letter-badge"></span></p>
+                            <p class="date" id="date"></p>
+                        </div>
+                        <p class="motivation-text">Happy learning! Keep growing your word power! 📚</p>
+                    </div>
+
+                    <!-- Word of the Day Card -->
+                    <div class="card word-card">
+                        <div class="letter-badge"></div>
+                        <p id="date"></p>
+                        <h2 class="word"></h2>
+                        <p class="phonetic"></p>
+                        <p class="definition"></p>
+                        <p class="example"></p>
+                        <div class="word-actions">
+                            <button id="save-word" class="success">Save Word</button>
+                            <button id="new-word">Next Word</button>
+                            <button id="pronunciation" class="secondary">Pronunciation</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Weekly Assignments -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Weekly Assignments</h3>
+                            <button class="secondary">View All</button>
+                        </div>
+                        <div class="assignment-slider">
+                            <div class="assignment-box">
+                                <h4>Monday Challenge</h4>
+                                <p>Master 5 new words</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 60%"></div>
+                                </div>
+                            </div>
+                            <div class="assignment-box">
+                                <h4>Vocabulary Quiz</h4>
+                                <p>Test your knowledge</p>
+                                <button class="btn-primary">Start Quiz</button>
+                            </div>
+                            <div class="assignment-box">
+                                <h4>Writing Challenge</h4>
+                                <p>Use new words in sentences</p>
+                                <button class="btn-primary">Begin Writing</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dashboard-sidebar">
+                    <!-- Leaderboard -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Leaderboard</h3>
+                            <button class="secondary">View All</button>
+                        </div>
+                        <div class="leaderboard-list">
+                            <div class="leaderboard-item">
+                                <span class="rank">1</span>
+                                <span class="user-name">John Doe</span>
+                                <span class="score">2500</span>
+                            </div>
+                            <div class="leaderboard-item">
+                                <span class="rank">2</span>
+                                <span class="user-name">Jane Smith</span>
+                                <span class="score">2300</span>
+                            </div>
+                            <div class="leaderboard-item">
+                                <span class="rank">3</span>
+                                <span class="user-name">Mike Johnson</span>
+                                <span class="score">2100</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Friends -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Friends</h3>
+                            <button class="secondary">View All</button>
+                        </div>
+                        <div class="friends-list">
+                            <div class="friend-item">
+                                <img src="https://source.unsplash.com/50x50/?portrait" alt="Friend">
+                                <span class="friend-name">Sarah Wilson</span>
+                                <span class="status online"></span>
+                            </div>
+                            <div class="friend-item">
+                                <img src="https://source.unsplash.com/50x50/?face" alt="Friend">
+                                <span class="friend-name">Tom Brown</span>
+                                <span class="status offline"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section footer-about">
+                <h3>About Word Wizard</h3>
+                <p>Enhance your vocabulary with our interactive learning platform. Join thousands of learners worldwide!</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Premium</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <form class="contact-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get daily word updates and learning tips!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Word Wizard. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Login</h2>
+                <button onclick="closeModal('loginModal')" class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form class="auth-form">
+                    <div class="auth-form-group">
+                        <input type="email" placeholder="Email" required 
+                            oninvalid="this.setCustomValidity('Please enter a valid email')" 
+                            oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="auth-form-group">
+                        <input type="password" placeholder="Password" required 
+                            oninvalid="this.setCustomValidity('Please enter a password')" 
+                            oninput="this.setCustomValidity('')">
+                    </div>
+                    <button type="submit" class="auth-submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Sign Up</h2>
+                <button onclick="closeModal('signupModal')" class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form class="auth-form">
+                    <div class="auth-form-group">
+                        <input type="text" placeholder="Full Name" required 
+                            oninvalid="this.setCustomValidity('Please enter your full name')" 
+                            oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="auth-form-group">
+                        <input type="email" placeholder="Email" required 
+                            oninvalid="this.setCustomValidity('Please enter a valid email')" 
+                            oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="auth-form-group">
+                        <input type="password" placeholder="Password" required 
+                            oninvalid="this.setCustomValidity('Please enter a password')" 
+                            oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="auth-form-group">
+                        <input type="password" placeholder="Confirm Password" required 
+                            oninvalid="this.setCustomValidity('Please confirm your password')" 
+                            oninput="this.setCustomValidity('')">
+                    </div>
+                    <button type="submit" class="auth-submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,522 @@
+{
+    "A": [
+        {
+            "word": "Ambiguous",
+            "phonetic": "/amˈbɪɡjuəs/",
+            "definition": "Having more than one possible meaning or interpretation",
+            "example": "The instructions were ambiguous and confusing."
+        },
+        {
+            "word": "Altruistic",
+            "phonetic": "/ˌalˈtruːɪstɪk/",
+            "definition": "Showing selfless concern for the well-being of others",
+            "example": "Her altruistic nature led her to volunteer at the shelter."
+        },
+        {
+            "word": "Ameliorate",
+            "phonetic": "/əˈmiːlɪəreɪt/",
+            "definition": "Make something bad or unsatisfactory better",
+            "example": "The new policies helped ameliorate the economic situation."
+        }
+    ],
+    "B": [
+        {
+            "word": "Benevolent",
+            "phonetic": "/bəˈnevələnt/",
+            "definition": "Kind, generous, and caring about others",
+            "example": "The benevolent donor provided funds for the new library."
+        },
+        {
+            "word": "Bucolic",
+            "phonetic": "/bjuːˈkɒlɪk/",
+            "definition": "Relating to the pleasant aspects of the countryside",
+            "example": "They enjoyed the bucolic scenery during their drive."
+        },
+        {
+            "word": "Brevity",
+            "phonetic": "/ˈbrevɪti/",
+            "definition": "Concise and exact use of words in writing or speech",
+            "example": "The speaker was praised for the brevity of his speech."
+        }
+    ],
+    "C": [
+        {
+            "word": "Cacophony",
+            "phonetic": "/kəˈkɒfəni/",
+            "definition": "A harsh, discordant mixture of sounds",
+            "example": "The cacophony of the city traffic was overwhelming."
+        },
+        {
+            "word": "Cognizant",
+            "phonetic": "/ˈkɒɡnɪz(ə)nt/",
+            "definition": "Having knowledge or awareness",
+            "example": "She was cognizant of the risks involved."
+        },
+        {
+            "word": "Capricious",
+            "phonetic": "/kəˈprɪʃəs/",
+            "definition": "Given to sudden and unaccountable changes of mood or behavior",
+            "example": "The capricious weather ruined their outdoor plans."
+        }
+    ],
+    "D": [
+        {
+            "word": "Diligent",
+            "phonetic": "/ˈdɪlɪdʒənt/",
+            "definition": "Having or showing care and conscientiousness in one's work or duties",
+            "example": "She was a diligent student who always completed her assignments."
+        },
+        {
+            "word": "Dexterity",
+            "phonetic": "/dekˈsterəti/",
+            "definition": "Skill in performing tasks, especially with the hands",
+            "example": "The surgeon's dexterity was remarkable."
+        },
+        {
+            "word": "Dubious",
+            "phonetic": "/ˈdjuːbiəs/",
+            "definition": "Hesitating or doubting; not to be relied upon",
+            "example": "They were dubious about the project's success."
+        }
+    ],
+    "E": [
+        {
+            "word": "Ephemeral",
+            "phonetic": "/ɪˈfem(ə)rəl/",
+            "definition": "Lasting for a very short time",
+            "example": "The ephemeral beauty of cherry blossoms."
+        },
+        {
+            "word": "Eloquent",
+            "phonetic": "/ˈeləkwənt/",
+            "definition": "Fluent or persuasive in speaking or writing",
+            "example": "Her eloquent speech moved the audience."
+        },
+        {
+            "word": "Enigmatic",
+            "phonetic": "/ˌenɪɡˈmætɪk/",
+            "definition": "Difficult to interpret or understand; mysterious",
+            "example": "His enigmatic smile left them wondering."
+        }
+    ],
+    "F": [
+        {
+            "word": "Fastidious",
+            "phonetic": "/faˈstɪdiəs/",
+            "definition": "Very attentive to accuracy and detail",
+            "example": "He was fastidious about keeping his workspace organized."
+        },
+        {
+            "word": "Fortuitous",
+            "phonetic": "/fɔːˈtjuːɪtəs/",
+            "definition": "Happening by chance rather than intention",
+            "example": "Their fortuitous meeting led to a lifelong friendship."
+        },
+        {
+            "word": "Furtive",
+            "phonetic": "/ˈfɜːtɪv/",
+            "definition": "Attempting to avoid notice or attention, typically because of guilt or a belief that discovery would lead to trouble; secretive",
+            "example": "He cast a furtive glance over his shoulder."
+        }
+    ],
+    "G": [
+        {
+            "word": "Gregarious",
+            "phonetic": "/ɡrɪˈɡeəriəs/",
+            "definition": "Fond of company; sociable",
+            "example": "Her gregarious nature made her the life of every party."
+        },
+        {
+            "word": "Garrulous",
+            "phonetic": "/ˈɡærʊləs/",
+            "definition": "Excessively talkative, especially on trivial matters",
+            "example": "The garrulous passenger talked throughout the journey."
+        },
+        {
+            "word": "Gratuitous",
+            "phonetic": "/ɡrəˈtjuːɪtəs/",
+            "definition": "Uncalled for; lacking good reason; unwarranted",
+            "example": "The film contained gratuitous violence."
+        }
+    ],
+    "H": [
+        {
+            "word": "Harbinger",
+            "phonetic": "/ˈhɑːbɪndʒə/",
+            "definition": "A person or thing that announces or signals the approach of another",
+            "example": "The robin is often seen as a harbinger of spring."
+        },
+        {
+            "word": "Hegemony",
+            "phonetic": "/hɪˈdʒeməni/",
+            "definition": "Leadership or dominance, especially by one country or social group over others",
+            "example": "The company's hegemony in the tech industry."
+        },
+        {
+            "word": "Hyperbole",
+            "phonetic": "/haɪˈpɜːbəli/",
+            "definition": "Exaggerated statements or claims not meant to be taken literally",
+            "example": "The claim that the pizza was 'the best in the universe' was pure hyperbole."
+        }
+    ],
+    "I": [
+        {
+            "word": "Ineffable",
+            "phonetic": "/ɪnˈefəbl/",
+            "definition": "Too great or extreme to be expressed or described in words",
+            "example": "The ineffable beauty of the sunset left them speechless."
+        },
+        {
+            "word": "Insidious",
+            "phonetic": "/ɪnˈsɪdiəs/",
+            "definition": "Proceeding in a gradual, subtle way, but with harmful effects",
+            "example": "The insidious spread of misinformation on social media."
+        },
+        {
+            "word": "Impeccable",
+            "phonetic": "/ɪmˈpekəbl/",
+            "definition": "In accordance with the highest standards; faultless",
+            "example": "Her impeccable manners impressed everyone."
+        }
+    ],
+    "J": [
+        {
+            "word": "Juxtapose",
+            "phonetic": "/ˈdʒʌkstəpəʊz/",
+            "definition": "Place close together or side by side",
+            "example": "The artist chose to juxtapose the old and new buildings."
+        },
+        {
+            "word": "Jovial",
+            "phonetic": "/ˈdʒəʊviəl/",
+            "definition": "Cheerful and friendly",
+            "example": "The jovial host made everyone feel welcome."
+        },
+        {
+            "word": "Judicious",
+            "phonetic": "/dʒuːˈdɪʃəs/",
+            "definition": "Having, showing, or done with good judgment or sense",
+            "example": "He made a judicious decision to wait."
+        }
+    ],
+    "K": [
+        {
+            "word": "Kinetic",
+            "phonetic": "/kɪˈnetɪk/",
+            "definition": "Relating to or resulting from motion",
+            "example": "The kinetic energy of the rushing water."
+        },
+        {
+            "word": "Kaleidoscopic",
+            "phonetic": "/kəˌlaɪdəˈskɒpɪk/",
+            "definition": "Complex and continuously changing",
+            "example": "The kaleidoscopic patterns of the aurora borealis."
+        },
+        {
+            "word": "Keen",
+            "phonetic": "/kiːn/",
+            "definition": "Having or showing eagerness or enthusiasm",
+            "example": "She had a keen interest in astronomy."
+        }
+    ],
+    "L": [
+        {
+            "word": "Luminescent",
+            "phonetic": "/luːmɪˈnesnt/",
+            "definition": "Emitting light not caused by heat",
+            "example": "The luminescent jellyfish glowed in the dark waters."
+        },
+        {
+            "word": "Lethargic",
+            "phonetic": "/lɪˈθɑːdʒɪk/",
+            "definition": "Affected by lethargy; sluggish and apathetic",
+            "example": "The hot weather made everyone feel lethargic."
+        },
+        {
+            "word": "Lucid",
+            "phonetic": "/ˈluːsɪd/",
+            "definition": "Expressed clearly; easy to understand",
+            "example": "Her lucid explanation helped clarify the concept."
+        }
+    ],
+    "M": [
+        {
+            "word": "Mellifluous",
+            "phonetic": "/məˈlɪfluəs/",
+            "definition": "Sweet or musical; pleasant to hear",
+            "example": "Her mellifluous voice captivated the audience."
+        },
+        {
+            "word": "Meticulous",
+            "phonetic": "/məˈtɪkjʊləs/",
+            "definition": "Showing great attention to detail; very careful and precise",
+            "example": "His meticulous research impressed his professors."
+        },
+        {
+            "word": "Magnanimous",
+            "phonetic": "/maɡˈnanɪməs/",
+            "definition": "Very generous or forgiving, especially toward a rival or less powerful person",
+            "example": "The magnanimous gesture of forgiveness."
+        }
+    ],
+    "N": [
+        {
+            "word": "Nefarious",
+            "phonetic": "/nɪˈfeəriəs/",
+            "definition": "Wicked or criminal",
+            "example": "The detective uncovered their nefarious plot."
+        },
+        {
+            "word": "Nebulous",
+            "phonetic": "/ˈnebjʊləs/",
+            "definition": "Unclear, vague, or ill-defined",
+            "example": "The project's goals remained nebulous."
+        },
+        {
+            "word": "Nascent",
+            "phonetic": "/ˈnasnt/",
+            "definition": "Just coming into existence and beginning to display signs of future potential",
+            "example": "The nascent technology showed promise."
+        }
+    ],
+    "O": [
+        {
+            "word": "Obfuscate",
+            "phonetic": "/ˈɒbfʌskeɪt/",
+            "definition": "Make obscure, unclear, or unintelligible",
+            "example": "The complex language seemed to obfuscate the simple truth."
+        },
+        {
+            "word": "Ostentatious",
+            "phonetic": "/ˌɒstenˈteɪʃəs/",
+            "definition": "Characterized by vulgar or pretentious display; designed to impress",
+            "example": "The ostentatious display of wealth was off-putting."
+        },
+        {
+            "word": "Omniscient",
+            "phonetic": "/ɒmˈnɪsiənt/",
+            "definition": "Knowing everything",
+            "example": "The omniscient narrator revealed all characters' thoughts."
+        }
+    ],
+    "P": [
+        {
+            "word": "Perspicacious",
+            "phonetic": "/ˌpɜːspɪˈkeɪʃəs/",
+            "definition": "Having a ready insight into and understanding of things",
+            "example": "Her perspicacious analysis solved the problem."
+        },
+        {
+            "word": "Pernicious",
+            "phonetic": "/pəˈnɪʃəs/",
+            "definition": "Having a harmful effect, especially in a gradual or subtle way",
+            "example": "The pernicious influence of negative thinking."
+        },
+        {
+            "word": "Pragmatic",
+            "phonetic": "/præɡˈmætɪk/",
+            "definition": "Dealing with things sensibly and realistically",
+            "example": "She took a pragmatic approach to solving the issue."
+        }
+    ],
+    "Q": [
+        {
+            "word": "Quintessential",
+            "phonetic": "/ˌkwɪntɪˈsenʃl/",
+            "definition": "Representing the most perfect or typical example",
+            "example": "The quintessential example of Renaissance architecture."
+        },
+        {
+            "word": "Quixotic",
+            "phonetic": "/kwɪkˈsɒtɪk/",
+            "definition": "Exceedingly idealistic; unrealistic and impractical",
+            "example": "His quixotic quest for perfect justice."
+        },
+        {
+            "word": "Querulous",
+            "phonetic": "/ˈkwerʊləs/",
+            "definition": "Complaining in a petulant or whining manner",
+            "example": "The querulous tone of his response."
+        }
+    ],
+    "R": [
+        {
+            "word": "Resilient",
+            "phonetic": "/rɪˈzɪliənt/",
+            "definition": "Able to withstand or recover quickly from difficult conditions",
+            "example": "The resilient community rebuilt after the disaster."
+        },
+        {
+            "word": "Recalcitrant",
+            "phonetic": "/rɪˈkalsɪtrənt/",
+            "definition": "Having an obstinately uncooperative attitude",
+            "example": "The recalcitrant student refused to participate."
+        },
+        {
+            "word": "Redolent",
+            "phonetic": "/ˈredələnt/",
+            "definition": "Strongly reminiscent or suggestive of",
+            "example": "The scene was redolent of his childhood."
+        }
+    ],
+    "S": [
+        {
+            "word": "Serendipity",
+            "phonetic": "/ˌserənˈdɪpɪti/",
+            "definition": "The occurrence and development of events by chance in a happy or beneficial way",
+            "example": "Finding his dream job was pure serendipity."
+        },
+        {
+            "word": "Surreptitious",
+            "phonetic": "/ˌsʌrəpˈtɪʃəs/",
+            "definition": "Kept secret, especially because it would not be approved of",
+            "example": "She cast a surreptitious glance at her phone."
+        },
+        {
+            "word": "Sagacious",
+            "phonetic": "/səˈɡeɪʃəs/",
+            "definition": "Having or showing keen mental discernment and good judgment",
+            "example": "The sagacious advice of the experienced mentor."
+        }
+    ],
+    "T": [
+        {
+            "word": "Tenacious",
+            "phonetic": "/tɪˈneɪʃəs/",
+            "definition": "Tending to keep a firm hold of something; persistent",
+            "example": "Her tenacious spirit helped her overcome obstacles."
+        },
+        {
+            "word": "Taciturn",
+            "phonetic": "/ˈtasɪtɜːn/",
+            "definition": "Reserved or uncommunicative in speech; saying little",
+            "example": "The taciturn farmer rarely spoke to strangers."
+        },
+        {
+            "word": "Trepidation",
+            "phonetic": "/ˌtrepɪˈdeɪʃn/",
+            "definition": "A feeling of fear or anxiety about something that may happen",
+            "example": "She approached the interview with trepidation."
+        }
+    ],
+    "U": [
+        {
+            "word": "Ubiquitous",
+            "phonetic": "/juːˈbɪkwɪtəs/",
+            "definition": "Present, appearing, or found everywhere",
+            "example": "Smartphones have become ubiquitous in modern life."
+        },
+        {
+            "word": "Unequivocal",
+            "phonetic": "/ˌʌnɪˈkwɪvəkl/",
+            "definition": "Leaving no doubt; unambiguous",
+            "example": "The evidence was unequivocal."
+        },
+        {
+            "word": "Urbane",
+            "phonetic": "/ɜːˈbeɪn/",
+            "definition": "Courteous and refined in manner",
+            "example": "The urbane host made everyone feel comfortable."
+        }
+    ],
+    "V": [
+        {
+            "word": "Vociferous",
+            "phonetic": "/və(ʊ)ˈsɪf(ə)rəs/",
+            "definition": "Vehement or clamorous",
+            "example": "The vociferous crowd demanded changes."
+        },
+        {
+            "word": "Venerable",
+            "phonetic": "/ˈvenərəbl/",
+            "definition": "Accorded a great deal of respect, especially because of age, wisdom, or character",
+            "example": "The venerable old professor was highly respected."
+        },
+        {
+            "word": "Verbose",
+            "phonetic": "/vɜːˈbəʊs/",
+            "definition": "Using or containing more words than needed",
+            "example": "The verbose report could have been more concise."
+        }
+    ],
+    "W": [
+        {
+            "word": "Whimsical",
+            "phonetic": "/ˈwɪmzɪkəl/",
+            "definition": "Playfully quaint or fanciful",
+            "example": "The garden was decorated with whimsical sculptures."
+        },
+        {
+            "word": "Wistful",
+            "phonetic": "/ˈwɪstfʊl/",
+            "definition": "Having or showing a feeling of vague or regretful longing",
+            "example": "She gave a wistful smile as she remembered her childhood."
+        },
+        {
+            "word": "Winsome",
+            "phonetic": "/ˈwɪnsəm/",
+            "definition": "Attractive or appealing in appearance or character",
+            "example": "Her winsome personality charmed everyone she met."
+        }
+    ],
+    "X": [
+        {
+            "word": "Xenial",
+            "phonetic": "/ˈziːnɪəl/",
+            "definition": "Relating to hospitality between host and guest",
+            "example": "The xenial atmosphere made everyone feel welcome."
+        },
+        {
+            "word": "Xanthous",
+            "phonetic": "/ˈzanθəs/",
+            "definition": "Yellow; having yellow or fair hair",
+            "example": "The xanthous flowers brightened the garden."
+        },
+        {
+            "word": "Xerotic",
+            "phonetic": "/zɪˈrɒtɪk/",
+            "definition": "Characterized by dryness, especially of the skin",
+            "example": "The xerotic climate affected their skin."
+        }
+    ],
+    "Y": [
+        {
+            "word": "Yearning",
+            "phonetic": "/ˈjɜːnɪŋ/",
+            "definition": "A strong feeling of desire or longing",
+            "example": "She felt a yearning for her childhood home."
+        },
+        {
+            "word": "Yielding",
+            "phonetic": "/ˈjiːldɪŋ/",
+            "definition": "Tending to give way under pressure; compliant",
+            "example": "The yielding nature of the soft soil."
+        },
+        {
+            "word": "Youthful",
+            "phonetic": "/ˈjuːθfʊl/",
+            "definition": "Having characteristics of young people; vigorous and fresh",
+            "example": "He maintained a youthful outlook on life."
+        }
+    ],
+    "Z": [
+        {
+            "word": "Zealous",
+            "phonetic": "/ˈzeləs/",
+            "definition": "Having or showing zeal; ardent, enthusiastic",
+            "example": "The zealous student spent extra hours studying."
+        },
+        {
+            "word": "Zephyr",
+            "phonetic": "/ˈzefə/",
+            "definition": "A gentle, mild breeze",
+            "example": "The zephyr brought relief on the hot summer day."
+        },
+        {
+            "word": "Zenith",
+            "phonetic": "/ˈzenɪθ/",
+            "definition": "The highest point reached by a celestial or other object",
+            "example": "The company had reached the zenith of its success."
+        }
+    ]
+}
