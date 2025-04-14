@@ -23,7 +23,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-image: url('/bookimg.jpg');
+    background-image: url('bookimg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
